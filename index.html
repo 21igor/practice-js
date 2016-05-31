@@ -2,17 +2,26 @@
 <html>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
     <title>HTML help</title>
 
   </head>
   <body>
     <div class="container">
-      <h1>HTML help</h1>
+      <h1>Peek-a-boo</h1>
 
-      <p>This is a very special page. If you click somewhere, it will tell you what type of HTML element you clicked on.</p>
+      <div class="walrus-hidden">
+        <p>
+          Let's play peek-a-boo. Click here to see the surprize!
+        </p>
+      </div>
 
-      <p>Look at this cute walrus!</p>
-      <img src="img/walrus.jpg">
+      <div class="walrus-showing">
+        <p>
+          What a cute walrus! Click here to hide her again.
+        </p>
+        <img src="img/walrus.jpg" alt="" />
+      </div>
     </div>
 
     <script src="js/jquery-1.12.4.js"></script>
